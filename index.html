@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEONGHYEON — The Sacred Archive</title>
+  <meta name="description" content="A little digital universe dedicated to Seonghyeon of CORTIS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-symbol">✦</div>
+    <p>THE SACRED ARCHIVE</p>
+    <span>SEONGHYEON · CORTIS</span>
+  </div>
+
+  <div id="stars"></div>
+  <div class="grain"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#home">S<span>·</span>H</a>
+    <div class="nav-links">
+      <a href="#about">01</a>
+      <a href="#archive">02</a>
+      <a href="#sound">03</a>
+      <a href="#letter">04</a>
+      <a href="#game">05</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE UNIVERSE FOR</p>
+        <h1>SEONGHYEON</h1>
+        <p class="hero-sub">CORTIS · THE SACRED ARCHIVE</p>
+        <button class="enter-btn" id="enterBtn">ENTER THE ARCHIVE <span>→</span></button>
+      </div>
+      <div class="hero-mark">✦</div>
+      <div class="scroll-hint">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-number">01</div>
+      <div class="section-heading">
+        <p class="eyebrow">THE BEGINNING</p>
+        <h2>Some people<br><em>stay.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="quote">
+          <span class="quote-mark">“</span>
+          <p>There are people who enter your life without ever knowing they changed it.</p>
+        </div>
+        <div class="about-text">
+          <p>This is not an official page. It is simply a small corner of the internet made with admiration for <strong>Seonghyeon</strong>.</p>
+          <p>A place for moments, music, memories, and all the little reasons someone can become important from afar.</p>
+          <div class="line-list">
+            <div><span>NAME</span><strong>SEONGHYEON</strong></div>
+            <div><span>GROUP</span><strong>CORTIS</strong></div>
+            <div><span>ARCHIVE</span><strong>NO. 001</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="presence section">
+      <div class="section-number">02</div>
+      <div class="presence-words">
+        <span>VOICE</span>
+        <span>MOVEMENT</span>
+        <span>PASSION</span>
+        <span>CHAOS</span>
+        <span>CALM</span>
+        <span>LIGHT</span>
+      </div>
+      <p class="center-note">Some people are remembered by what they did.<br>Others are remembered by what they made us feel.</p>
+    </section>
+
+    <section id="archive" class="section archive">
+      <div class="section-number">03</div>
+      <div class="section-heading">
+        <p class="eyebrow">THE ARCHIVE</p>
+        <h2>Moments<br><em>kept.</em></h2>
+      </div>
+      <div class="gallery">
+        <button class="photo-card card-1" data-title="THE FIRST LIGHT" data-caption="A moment worth keeping." aria-label="Open archive photo 1">
+          <div class="photo-placeholder"><span>✦</span><small>PHOTO 001</small></div>
+        </button>
+        <button class="photo-card card-2" data-title="ON THE STAGE" data-caption="Where the lights find him." aria-label="Open archive photo 2">
+          <div class="photo-placeholder"><span>◐</span><small>PHOTO 002</small></div>
+        </button>
+        <button class="photo-card card-3" data-title="AFTER THE LIGHTS" data-caption="A quieter side of the archive." aria-label="Open archive photo 3">
+          <div class="photo-placeholder"><span>✧</span><small>PHOTO 003</small></div>
+        </button>
+        <button class="photo-card card-4" data-title="A DISTANT STAR" data-caption="Somewhere between here and there." aria-label="Open archive photo 4">
+          <div class="photo-placeholder"><span>☽</span><small>PHOTO 004</small></div>
+        </button>
+      </div>
+      <p class="gallery-note">Klik kartu untuk membuka catatan. Kamu bisa mengganti placeholder ini dengan foto favoritmu.</p>
+    </section>
+
+    <section id="sound" class="section sound">
+      <div class="section-number">04</div>
+      <div class="record-wrap">
+        <div class="record" id="record"><div class="record-label">S<br><small>H</small></div></div>
+      </div>
+      <div class="sound-copy">
+        <p class="eyebrow">THE SOUND</p>
+        <h2>Songs that<br><em>remind me.</em></h2>
+        <p>Tambahkan lagu-lagu yang menurutmu punya hubungan dengan Seonghyeon. Untuk musik berhak cipta, gunakan embed atau tautan resmi.</p>
+        <a class="music-link" href="https://www.youtube.com/results?search_query=Dewa+19+Laskar+Cinta" target="_blank" rel="noopener">OPEN MUSIC SOURCE ↗</a>
+        <button class="spin-btn" id="spinBtn">SPIN THE RECORD</button>
+      </div>
+    </section>
+
+    <section id="letter" class="section letter">
+      <div class="section-number">05</div>
+      <div class="letter-shell">
+        <p class="eyebrow">A LETTER YOU'LL NEVER READ</p>
+        <h2>Dear Seonghyeon,</h2>
+        <div id="letterText" class="letter-text">
+          <p>I don't know if you'll ever see this.</p>
+          <p>Maybe you never will.</p>
+          <p>But somewhere between the music, the stage, and the person you show the world, you became someone I wanted to keep a little piece of in my own world.</p>
+          <p>So this little archive exists — not because I expect anything, but simply because some feelings deserve a place to stay.</p>
+          <p>With love,<br><em>someone from afar.</em></p>
+        </div>
+        <button id="letterBtn" class="outline-btn">READ THE LAST PAGE →</button>
+      </div>
+    </section>
+
+    <section class="stars-section section">
+      <div class="section-number">06</div>
+      <div class="stars-copy">
+        <p class="eyebrow">IF YOU WERE A STAR</p>
+        <h2>Leave<br><em>a light.</em></h2>
+        <p>Klik di mana saja untuk meninggalkan bintang kecilmu.</p>
+        <strong><span id="starCount">0</span> STARS HAVE BEEN LEFT HERE</strong>
+      </div>
+      <div id="starField" class="star-field"></div>
+    </section>
+
+    <section id="game" class="section game">
+      <div class="section-number">07</div>
+      <div class="game-heading">
+        <p class="eyebrow">MINI GAME</p>
+        <h2>Catch<br><em>the light.</em></h2>
+        <p>Gerakkan keranjang dengan ← → atau tombol di bawah. Tangkap cahaya sebelum jatuh.</p>
+      </div>
+      <div class="game-box">
+        <div class="game-top"><span>SCORE <b id="gameScore">0</b></span><span>LEVEL <b id="gameLevel">1</b></span></div>
+        <div id="gameArea" class="game-area">
+          <div id="player" class="player">✦</div>
+        </div>
+        <div class="game-controls">
+          <button data-key="ArrowLeft">←</button>
+          <button id="startGame">START</button>
+          <button data-key="ArrowRight">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="finale section">
+      <div class="final-symbol">✦</div>
+      <p class="eyebrow">THE LAST PAGE</p>
+      <h2>Thank you for existing<br>in the same timeline<br>as me.</h2>
+      <p class="final-small">A little universe made for Seonghyeon · 2026</p>
+      <button class="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">BACK TO THE BEGINNING ↑</button>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modalClose" class="modal-close">×</button>
+      <p class="eyebrow">ARCHIVE ENTRY</p>
+      <h2 id="modalTitle">THE FIRST LIGHT</h2>
+      <div class="modal-art">✦</div>
+      <p id="modalCaption">A moment worth keeping.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
