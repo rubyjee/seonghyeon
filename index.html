@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SEONGHYEON — Laskar Cinta Archive</title>
+<meta name="description" content="A cinematic fan-made tribute for Seonghyeon of CORTIS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="preloader"><div class="pre-logo">S</div><div class="pre-line"></div><span>THE SEONGHYEON ARCHIVE · 2026</span></div>
+<div class="noise"></div>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+
+<header class="topbar">
+  <a href="#home" class="logo">SEONGHYEON<span>.</span></a>
+  <nav><a href="#story">STORY</a><a href="#gallery">ARCHIVE</a><a href="#letter">LETTER</a><a href="#game">GAME</a></nav>
+  <button id="soundBtn" class="sound-btn"><i></i><span>PLAY</span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-red"></div>
+  <div class="hero-content">
+    <p class="kicker">A DIGITAL TRIBUTE · CORTIS</p>
+    <h1><span>SEO</span><em>NG</em><span>HYEON</span></h1>
+    <div class="hero-bottom">
+      <p>“Some people become a song<br>you never stop listening to.”</p>
+      <a href="#story" class="round-arrow">↓</a>
+      <small>01 / 07<br>SCROLL TO ENTER</small>
+    </div>
+  </div>
+  <div class="vertical-label">THE SACRED ARCHIVE</div>
+</section>
+
+<section id="story" class="story section">
+  <div class="section-tag">01 — THE STORY</div>
+  <div class="story-title reveal"><p>NOT AN OFFICIAL SITE.</p><h2>JUST A SMALL<br><i>UNIVERSE.</i></h2></div>
+  <div class="story-grid">
+    <div class="story-number">S<br>H<br>·<br>0<br>0<br>1</div>
+    <div class="story-copy reveal">
+      <p>This is a little digital archive made for <strong>Seonghyeon</strong> — a place for photographs, words, music, memories, and the quiet feeling of admiring someone from afar.</p>
+      <p>The visual language takes inspiration from the dramatic, philosophical atmosphere of classic rock and the emotional spirit behind <strong>Laskar Cinta</strong>, without reproducing its artwork or music.</p>
+      <div class="facts"><div><span>01</span><b>SEONGHYEON</b><small>CORTIS</small></div><div><span>02</span><b>ARCHIVE</b><small>NO. 001</small></div><div><span>03</span><b>YEAR</b><small>2026</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="manifesto-bg">✦</div>
+  <p class="kicker">THE PRESENCE</p>
+  <div class="word-stack"><span>VOICE</span><span>PASSION</span><span>CHAOS</span><span>LIGHT</span></div>
+  <p class="manifesto-foot">Remembered not only by what someone does,<br>but by what they make us feel.</p>
+</section>
+
+<section id="gallery" class="gallery section">
+  <div class="section-tag">02 — THE ARCHIVE</div>
+  <div class="gallery-head reveal"><p>FRAGMENTS OF</p><h2>A MOMENT.</h2></div>
+  <div class="masonry">
+    <button class="g-card tall" data-title="THE FIRST LIGHT" data-text="Every archive begins with a first moment."><div class="g-art art1"><span>01</span></div><b>THE FIRST LIGHT</b><small>ARCHIVE 001</small></button>
+    <button class="g-card" data-title="ON THE STAGE" data-text="Where the lights become a second sky."><div class="g-art art2"><span>02</span></div><b>ON THE STAGE</b><small>ARCHIVE 002</small></button>
+    <button class="g-card wide" data-title="AFTER THE LIGHTS" data-text="A quieter page after the noise."><div class="g-art art3"><span>03</span></div><b>AFTER THE LIGHTS</b><small>ARCHIVE 003</small></button>
+    <button class="g-card" data-title="DISTANT STAR" data-text="Some stars are seen from very far away."><div class="g-art art4"><span>04</span></div><b>DISTANT STAR</b><small>ARCHIVE 004</small></button>
+  </div>
+  <p class="replace-note">Placeholder visual — letakkan foto favoritmu di <code>assets/photos/</code> lalu ganti background di CSS.</p>
+</section>
+
+<section class="music section">
+  <div class="section-tag">03 — THE SOUND</div>
+  <div class="music-layout">
+    <div class="vinyl-wrap"><div id="vinyl" class="vinyl"><div class="label">L<br><small>C</small></div></div></div>
+    <div class="music-info reveal"><p class="kicker">THE SONG THAT INSPIRED THIS WORLD</p><h2>LASKAR<br><i>CINTA</i></h2><p>Gunakan file audio yang kamu miliki secara legal. Simpan sebagai <code>assets/laskar-cinta.mp3</code>. Browser hanya akan memutar file yang memang tersedia di project.</p><div class="player"><span id="trackState">READY</span><div class="meter"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>DEWA 19</span></div><button id="musicToggle" class="gold-btn">PLAY / PAUSE</button><audio id="audio" src="assets/laskar-cinta.mp3" preload="metadata"></audio></div>
+  </div>
+</section>
+
+<section id="letter" class="letter section">
+  <div class="section-tag">04 — A LETTER</div>
+  <div class="letter-card reveal">
+    <div class="letter-top"><span>PERSONAL ARCHIVE</span><span>NO. 004</span></div>
+    <h2>Dear<br><i>Seonghyeon,</i></h2>
+    <div id="letterBody"><p>I don't know if you'll ever see this.</p><p>Maybe you never will.</p><p>But somewhere between the music, the stage, and the person you show the world, you became someone worth remembering.</p><p>So I made this little place. Not because I expect anything — only because some feelings deserve somewhere to stay.</p><p>With love,<br><i>someone from afar.</i></p></div>
+    <button id="typeBtn" class="text-btn">REVEAL THE LETTER →</button>
+  </div>
+</section>
+
+<section class="stars section">
+  <div class="section-tag">05 — CONSTELLATION</div>
+  <div class="stars-content reveal"><p class="kicker">IF YOU WERE A STAR</p><h2>LEAVE<br><i>A LIGHT.</i></h2><p>Click anywhere in this space. Every click leaves a small star.</p><b><span id="starCount">0</span> LIGHTS LEFT</b></div>
+  <div id="constellation"></div>
+</section>
+
+<section id="game" class="game section">
+  <div class="section-tag">06 — MINI GAME</div>
+  <div class="game-head"><p class="kicker">CATCH THE LIGHT</p><h2>FIND<br><i>THE LIGHT.</i></h2><p>Gerakkan dengan ← →. Tangkap ✦ untuk menambah skor.</p></div>
+  <div class="arcade">
+    <div class="hud"><span>SCORE <b id="score">0</b></span><span>LEVEL <b id="level">1</b></span></div>
+    <div id="gameArea"><div id="car">✦</div></div>
+    <div class="controls"><button data-move="-1">←</button><button id="gameStart">START</button><button data-move="1">→</button></div>
+  </div>
+</section>
+
+<section class="final section">
+  <div class="final-symbol">✦</div>
+  <p class="kicker">THE LAST PAGE</p>
+  <h2>THANK YOU FOR EXISTING<br><i>IN THE SAME TIMELINE.</i></h2>
+  <p>SEONGHYEON · CORTIS · 2026</p>
+  <a href="#home" class="back">↑ BACK TO THE BEGINNING</a>
+</section>
+</main>
+
+<div id="galleryModal" class="modal"><div class="modal-card"><button id="closeModal">×</button><p class="kicker">ARCHIVE ENTRY</p><div class="modal-art">✦</div><h2 id="modalTitle">THE FIRST LIGHT</h2><p id="modalText"></p></div></div>
+<script src="script.js"></script>
+</body>
+</html>
